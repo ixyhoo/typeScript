@@ -1,1 +1,3 @@
-console.log("yes");
+let num1 = 24;
+
+num1 = 14
