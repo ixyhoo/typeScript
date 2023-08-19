@@ -9,4 +9,8 @@ array[0] = "chien";
 let tabl = [];
 tabl.push(24);
 tabl.push(true);
-tabl.push("blen");
+const zidane = {
+    id: 0,
+    name: "zidane",
+    jersey: 10
+};

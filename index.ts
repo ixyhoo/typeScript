@@ -14,4 +14,19 @@ let tabl: (number | boolean)[] = [];
 
 tabl.push(24);
 tabl.push(true);
-tabl.push("blen");
+
+
+//object
+interface Player {
+    id:number,
+    name:string,
+    jersey:number
+}
+const zidane:Player = {
+    id: 0,
+    name: "zidane",
+    jersey: 10
+};
+
+
+
