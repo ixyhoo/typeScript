@@ -1,3 +1,4 @@
 let num1 = 24;
+let num2:number;
 
-num1 = 14;
+num2 = "coucou"
