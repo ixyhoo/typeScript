@@ -28,5 +28,19 @@ const zidane:Player = {
     jersey: 10
 };
 
+//les classes
+class Singer {
+    id: number;
+    name: string;
+    alive: boolean
 
+    constructor(id: number, name: string, alive: boolean) {
+        this.id = id;
+        this.name = name;
+        this.alive = alive
+    }
+}
+
+const prince = new Singer(0, "prince", false);
+console.log(prince);
 
